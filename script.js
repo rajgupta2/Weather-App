@@ -17,7 +17,7 @@ window.onload=() => {
       const temp = data.main.temp;
       console.log(data);
 
-      document.getElementById("weather-data").innerHTML= `<h1>${cityName}</h1><h4>${weatherDescription}</h4><p>${temp} &#x2103;C</p>`;
+      document.getElementById("weather-data").innerHTML= `<h1>${cityName}</h1><h4>${weatherDescription}</h4><p>${temp} &#x2103;</p>`;
     }).catch((error) => {
       document.getElementById("weather-data").innerHTML= "<span class='text-danger'>Error: Failed to fetch weather data</span>";
     });
