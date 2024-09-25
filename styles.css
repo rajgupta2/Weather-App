@@ -1,0 +1,12 @@
+.container_main{
+    border: 2px solid black;
+    margin-left:10vw;
+    margin-right:10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 5vh;
+    padding-top: 10vh;
+    min-height:40vh;
+    box-shadow:4px 2px 8px blue;
+
+}
